@@ -1,0 +1,85 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.5); 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    color: black
+}
+
+.add-member, .team-members {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+}
