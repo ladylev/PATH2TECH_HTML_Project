@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Dev Team Members</h1>
+    
+    <section class="add-member">
+        <h2>Add New Member</h2>
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="First Name">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Last Name">
+
+            <label for="role">Role</label>
+            <input type="text" id="role" placeholder="Role">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@example.com">
+            
+            <button type="submit">Add Member</button>
+        </form>
+    </section>
+    
+    <section class="team-members">
+        <h2>Team Members</h2>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Role</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Lilly</td>
+                <td>Dawn</td>
+                <td>Front-End Developer</td>
+                <td>ldawn@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Henry</td>
+                <td>Barnes</td>
+                <td>Back-End Developer</td>
+                <td>hbarnes@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Marvin</td>
+                <td>Gap</td>
+                <td>UI Designer</td>
+                <td>mgap@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kendra</td>
+                <td>Parks</td>
+                <td>Automation Tester</td>
+                <td>kparks@gmail.com</td>
+            </tr>
+        </table>
+    </section>
+</div>/.container
   
 </body>
 </html>
